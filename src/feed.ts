@@ -2,7 +2,7 @@ import { XMLParser } from "fast-xml-parser";
 import type { FeedItem } from "./types.js";
 
 const RSS_URL =
-  process.env.BEEHIIV_RSS_URL ?? "https://www.enterprisevibecode.com/feed";
+  process.env.BEEHIIV_RSS_URL ?? "https://rss.beehiiv.com/feeds/9AbhG8CTgD.xml";
 
 export async function fetchFeed(): Promise<FeedItem[]> {
   console.log(`[feed] Fetching RSS feed: ${RSS_URL}`);
@@ -43,8 +43,15 @@ export async function fetchFeed(): Promise<FeedItem[]> {
     // Try to extract first image from content
     const imgMatch = content.match(/<img[^>]+src="([^"]+)"/);
 
+    // guid may be an object with attributes (e.g. { "#text": "...", "@_isPermaLink": "false" })
+    const rawGuid = item.guid;
+    const guid =
+      typeof rawGuid === "object" && rawGuid !== null
+        ? String((rawGuid as Record<string, unknown>)["#text"] ?? item.link ?? "")
+        : String(rawGuid ?? item.link ?? "");
+
     return {
-      guid: String(item.guid ?? item.link ?? ""),
+      guid,
       title: String(item.title ?? "Untitled"),
       link: String(item.link ?? ""),
       content,

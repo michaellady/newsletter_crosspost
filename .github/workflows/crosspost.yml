@@ -46,7 +46,7 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
 
           # --- Source ---
-          BEEHIIV_RSS_URL: "https://www.enterprisevibecode.com/feed"
+          BEEHIIV_RSS_URL: "https://rss.beehiiv.com/feeds/9AbhG8CTgD.xml"
 
           # --- Medium (API) ---
           MEDIUM_TOKEN: ${{ secrets.MEDIUM_TOKEN }}
