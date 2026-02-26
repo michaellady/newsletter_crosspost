@@ -1,0 +1,89 @@
+name: Cross-Post Newsletter
+
+on:
+  schedule:
+    # Run every hour (stays well within GitHub Actions free tier)
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    # Manual trigger for testing
+    inputs:
+      dry_run:
+        description: "Dry run (draft only, no publishing)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: write # Needed to commit published.json state back to repo
+
+jobs:
+  crosspost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Run cross-poster
+        env:
+          # --- Dry Run ---
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+
+          # --- Source ---
+          BEEHIIV_RSS_URL: "https://www.enterprisevibecode.com/feed"
+
+          # --- Medium (API) ---
+          MEDIUM_TOKEN: ${{ secrets.MEDIUM_TOKEN }}
+          MEDIUM_USER_ID: ${{ secrets.MEDIUM_USER_ID }}
+
+          # --- Substack (Playwright) ---
+          SUBSTACK_URL: "https://enterprisevibecode.substack.com"
+          SUBSTACK_EMAIL: ${{ secrets.SUBSTACK_EMAIL }}
+          SUBSTACK_PASSWORD: ${{ secrets.SUBSTACK_PASSWORD }}
+
+          # --- LinkedIn Newsletter (Playwright) ---
+          # Preferred: cookie-based auth (more reliable than email/password)
+          LINKEDIN_COOKIES: ${{ secrets.LINKEDIN_COOKIES }}
+          # Fallback: email/password (may hit CAPTCHA/2FA)
+          LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
+          LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+          # Optional: your newsletter page URL
+          LINKEDIN_NEWSLETTER_URL: ${{ secrets.LINKEDIN_NEWSLETTER_URL }}
+
+          # --- Notifications (optional) ---
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: npx tsx src/index.ts
+
+      - name: Upload debug screenshots (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshots
+          path: |
+            *-error-screenshot.png
+            *-draft-preview.png
+          retention-days: 7
+
+      - name: Commit state changes
+        run: |
+          git config user.name "cross-post-bot"
+          git config user.email "bot@enterprisevibecode.com"
+          git add published.json
+          git diff --cached --quiet || git commit -m "chore: update syndication state [skip ci]"
+          git push
