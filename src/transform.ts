@@ -58,13 +58,13 @@ function extractDescription(html: string, maxLength = 200): string {
 
 /**
  * Prepare content for Medium.
- * Medium accepts HTML with canonicalUrl.
+ * With Playwright, the title goes in the editor's title field separately.
+ * We add a canonical footer since we set canonicalUrl via story settings.
  */
 export function transformForMedium(item: FeedItem): PublishPayload {
   const cleaned = cleanBeehiivHtml(item.content);
 
-  // Medium requires the title in the content body as well
-  const htmlContent = `<h1>${item.title}</h1>\n${cleaned}`;
+  const htmlContent = `${cleaned}\n${CANONICAL_FOOTER}`;
 
   return {
     title: item.title,

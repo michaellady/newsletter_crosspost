@@ -48,9 +48,9 @@ jobs:
           # --- Source ---
           BEEHIIV_RSS_URL: "https://rss.beehiiv.com/feeds/9AbhG8CTgD.xml"
 
-          # --- Medium (API) ---
-          MEDIUM_TOKEN: ${{ secrets.MEDIUM_TOKEN }}
-          MEDIUM_USER_ID: ${{ secrets.MEDIUM_USER_ID }}
+          # --- Medium (Playwright) ---
+          MEDIUM_COOKIES: ${{ secrets.MEDIUM_COOKIES }}
+          MEDIUM_TAGS: ${{ secrets.MEDIUM_TAGS }}
 
           # --- Substack (Playwright) ---
           SUBSTACK_URL: "https://enterprisevibecode.substack.com"

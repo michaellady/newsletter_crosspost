@@ -48,7 +48,7 @@ async function main(): Promise<void> {
       linkedin: { status: "skipped" },
     };
 
-    // --- Medium (API) ---
+    // --- Medium (Playwright) ---
     if (needsPublish(state, item.guid, "medium")) {
       const payload = transformForMedium(item);
       const result = await publishToMedium(payload);
