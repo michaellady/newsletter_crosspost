@@ -1,3 +1,212 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/life-isn-t-about-work",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/life-isn-t-about-work",
+      "title": "Life isn't about work",
+      "publishedAt": "Sun, 22 Feb 2026 17:00:00 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:48.912Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:49.101Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:49.288Z"
+        }
+      }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/the-impostor-syndrome-is-creeping-in",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/the-impostor-syndrome-is-creeping-in",
+      "title": "the impostor syndrome is creeping in",
+      "publishedAt": "Sun, 08 Feb 2026 17:16:42 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:49.495Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:49.682Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:49.871Z"
+        }
+      }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/why-vibe-coding-makes-sense",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/why-vibe-coding-makes-sense",
+      "title": "Why Vibe Coding Makes Sense",
+      "publishedAt": "Mon, 02 Feb 2026 00:53:19 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:50.054Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:50.240Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:50.421Z"
+        }
+      }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/if-you-re-reading-this-you-re-gonna-make-it",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/if-you-re-reading-this-you-re-gonna-make-it",
+      "title": "if you’re reading this, you’re gonna make it",
+      "publishedAt": "Sun, 25 Jan 2026 17:05:30 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:50.606Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:50.786Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:50.954Z"
+        }
+      }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/second-and-third-order-effects-of-vibe-coding",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/second-and-third-order-effects-of-vibe-coding",
+      "title": "Second and Third Order Effects of Vibe Coding",
+      "publishedAt": "Sat, 17 Jan 2026 17:35:55 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:51.118Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:51.282Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:51.455Z"
+        }
+      }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/agile-for-agents",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/agile-for-agents",
+      "title": "Agile for Agents",
+      "publishedAt": "Sun, 11 Jan 2026 13:00:49 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:51.621Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:51.782Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:51.955Z"
+        }
+      }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/10-hours-with-gas-town-out-of-a-possible-48",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/10-hours-with-gas-town-out-of-a-possible-48",
+      "title": "10 hours with Gas Town (out of a possible 48)",
+      "publishedAt": "Sat, 03 Jan 2026 22:33:20 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:52.127Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:52.287Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:52.453Z"
+        }
+      }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/let-it-rip",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/let-it-rip",
+      "title": "Let it rip",
+      "publishedAt": "Sat, 13 Dec 2025 17:40:58 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:52.621Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:52.790Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-02-26T18:22:52.952Z"
+        }
+      }
+    }
+  ]
 }
