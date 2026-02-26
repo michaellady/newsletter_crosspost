@@ -9,20 +9,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:16.669Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:30.351Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:16.848Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:30.531Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:17.018Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:30.694Z"
         }
       }
     },
@@ -35,20 +35,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:17.183Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:30.863Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:17.350Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:31.029Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:17.519Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:31.199Z"
         }
       }
     },
@@ -61,20 +61,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:17.683Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:31.364Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:17.848Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:31.530Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:18.019Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:31.698Z"
         }
       }
     },
@@ -87,20 +87,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:18.185Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:31.866Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:18.346Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:32.030Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:18.521Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:32.196Z"
         }
       }
     },
@@ -113,20 +113,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:18.687Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:32.366Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:18.849Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:32.531Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:19.017Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:32.696Z"
         }
       }
     },
@@ -139,20 +139,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:19.183Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:32.869Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:19.349Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:33.029Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:19.517Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:33.200Z"
         }
       }
     },
@@ -165,20 +165,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:19.684Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:33.365Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:19.846Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:33.530Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:20.015Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:33.693Z"
         }
       }
     },
@@ -191,20 +191,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:20.183Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:33.864Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:20.350Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:34.030Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-02-26T19:22:20.517Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-02-26T20:16:34.197Z"
         }
       }
     }
