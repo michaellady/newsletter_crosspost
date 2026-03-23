@@ -207,6 +207,32 @@
           "lastAttempt": "2026-02-26T20:16:34.197Z"
         }
       }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/agentic-hero-s-journey",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/agentic-hero-s-journey",
+      "title": "Agentic Hero's Journey",
+      "publishedAt": "Mon, 23 Mar 2026 16:00:00 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-03-23T16:26:28.131Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-03-23T16:26:28.292Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-03-23T16:26:28.462Z"
+        }
+      }
     }
   ]
 }
