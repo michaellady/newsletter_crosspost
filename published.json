@@ -285,6 +285,32 @@
           "lastAttempt": "2026-04-19T18:21:00.744Z"
         }
       }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/tokens-from-our-past-and-the-great-re-why-ing",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/tokens-from-our-past-and-the-great-re-why-ing",
+      "title": "Tokens From Our Past and The Great Re-Why-ing",
+      "publishedAt": "Sun, 26 Apr 2026 16:00:00 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-04-26T16:19:57.901Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-04-26T16:19:58.080Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-04-26T16:19:58.251Z"
+        }
+      }
     }
   ]
 }
