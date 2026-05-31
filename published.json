@@ -363,6 +363,32 @@
           "lastAttempt": "2026-05-17T19:31:34.375Z"
         }
       }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/what-do-humans-add-to-ai-tokens-perspective",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/what-do-humans-add-to-ai-tokens-perspective",
+      "title": "What do Humans add to AI Tokens? Perspective.",
+      "publishedAt": "Sun, 31 May 2026 16:00:00 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-05-31T16:33:14.995Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-05-31T16:33:15.156Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-05-31T16:33:15.323Z"
+        }
+      }
     }
   ]
 }
