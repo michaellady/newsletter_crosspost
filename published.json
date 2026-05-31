@@ -373,20 +373,20 @@
         "medium": {
           "status": "failed",
           "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
-          "retryCount": 2,
-          "lastAttempt": "2026-05-31T17:29:19.193Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-05-31T18:33:10.020Z"
         },
         "substack": {
           "status": "failed",
           "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
-          "retryCount": 2,
-          "lastAttempt": "2026-05-31T17:29:19.372Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-05-31T18:33:10.199Z"
         },
         "linkedin": {
           "status": "failed",
           "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
-          "retryCount": 2,
-          "lastAttempt": "2026-05-31T17:29:19.536Z"
+          "retryCount": 3,
+          "lastAttempt": "2026-05-31T18:33:10.381Z"
         }
       }
     }
