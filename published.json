@@ -389,6 +389,32 @@
           "lastAttempt": "2026-05-31T18:33:10.381Z"
         }
       }
+    },
+    {
+      "beehiivGuid": "https://www.enterprisevibecode.com/p/i-turned-35-last-week-here-s-what-it-taught-me-about-b2b-saas",
+      "beehiivUrl": "https://www.enterprisevibecode.com/p/i-turned-35-last-week-here-s-what-it-taught-me-about-b2b-saas",
+      "title": "I turned 35 last week. Here’s what it taught me about B2B SaaS",
+      "publishedAt": "Mon, 15 Jun 2026 15:49:47 +0000",
+      "destinations": {
+        "medium": {
+          "status": "failed",
+          "error": "[medium] Missing MEDIUM_COOKIES env var. Run `npx tsx src/export-medium-cookies.ts` to export cookies.",
+          "retryCount": 1,
+          "lastAttempt": "2026-06-15T16:43:09.628Z"
+        },
+        "substack": {
+          "status": "failed",
+          "error": "[substack] Missing SUBSTACK_EMAIL or SUBSTACK_PASSWORD env vars",
+          "retryCount": 1,
+          "lastAttempt": "2026-06-15T16:43:09.851Z"
+        },
+        "linkedin": {
+          "status": "failed",
+          "error": "[linkedin] Missing auth credentials. Set LINKEDIN_COOKIES (preferred) or both LINKEDIN_EMAIL and LINKEDIN_PASSWORD.",
+          "retryCount": 1,
+          "lastAttempt": "2026-06-15T16:43:10.047Z"
+        }
+      }
     }
   ]
 }
